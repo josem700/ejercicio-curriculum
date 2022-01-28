@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+    background-color: #0b0b0b;
+    color: white;
+}
+.parallax{
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#titulo{
+    height: 500px;
+    background-color: #151515;
+    margin: 0%;
+    transition: 1s;
+}
+li.menup{
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    transition: 0.5s;
+    padding: 1em;
+    margin: 0;
+    color: white;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+li.menup:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    padding: 1.3em;
+    font-size: large;
+}
+header{
+    background-color:#151515;
+    height: 100%;
+}
+ul#menup{
+    margin: 0;
+   float: right;
+    height: 100%;
+}
+h1{
+    text-align: center;
+    padding: 1em;
+}
+h2{
+    text-align: center;
+    width: 30%;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+}
+p{
+    width: 30%;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: 1s;
+}
+li.footm{
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    transition: 0.5s;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0;
+    color: white;
+    float: left;
+}
+img{
+    filter: grayscale(1);
+    transition: 0.5s;
+}
+img:hover{
+    filter: grayscale(0);
+    transition: 0.5s;
+}
+ul#foot{
+    float: right;
+}
+hr{
+    width:40%;
+}
+@media screen and (max-width: 800px){
+    h2{
+        transition: 1s;
+        top: 30%
+    }
+
+    li.menup{
+        width:100px;
+        font-size: small;
+    }
+
+    li.menup:hover{
+        font-size: medium;
+    }
+
+    #titulo{
+        transition: 1s;
+        height: 1000px;
+    }
+
+}
